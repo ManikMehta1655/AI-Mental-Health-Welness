@@ -1,245 +1,363 @@
-# Aura3.0: AI-Powered Mental Health Support on Sonic 🧠⛓️
 
-[![Sonic Token](https://img.shields.io/badge/Sonic-Integration-purple.svg)]()
-[![Zerepy](https://img.shields.io/badge/Zerepy-AI_Agent-blue.svg)]()
-[![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green.svg)]()
-[![Crisis Response](https://img.shields.io/badge/Crisis-Detection-red.svg)]()
-[![Smart Contract](https://img.shields.io/badge/Sonic_Blaze-Testnet-orange.svg)]()
+# MindSphere AI 🧠
 
-> An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology. Built on Sonic Blaze Testnet with Zerepy agents.
+### AI-Powered Mental Wellness & Emotional Support Platform
 
-## 📸 Project Showcase
+![AI Powered](https://img.shields.io/badge/AI-Powered-blue)
+![Blockchain](https://img.shields.io/badge/Blockchain-Sonic-purple)
+![TypeScript](https://img.shields.io/badge/TypeScript-Enabled-blue)
+![Solidity](https://img.shields.io/badge/Solidity-Smart_Contracts-black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-<div align="center">
-  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="Aura Dashboard" width="45%" />
-  <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Therapy Session" width="45%" />
-</div>
+## 📖 About the Project
 
-<div align="center">
-  <img src="https://i.imghippo.com/files/RHud5372Iq.png" alt="Progress Tracking" width="45%" />
-  <img src="https://i.imghippo.com/files/FBU1874HaE.png" alt="Mental Health Analytics" width="45%" />
-</div>
+MindSphere AI is an intelligent mental wellness platform
+that combines Artificial Intelligence, blockchain technology,
+and interactive wellness activities to provide personalized
+emotional support.
 
-<div align="center">
-  <img src="https://i.imghippo.com/files/Su5718PoM.png" alt="AI Interaction" width="45%" />
-  <img src="https://i.imghippo.com/files/Q1022fI.png" alt="Therapeutic Features" width="45%" />
-</div>
+The project focuses on creating a secure, accessible,
+and user-friendly digital environment where individuals
+can express their emotions, manage stress, practice
+mindfulness, and track their mental wellness journey.
 
-## 🌟 Key Features
+By integrating AI-driven conversations with decentralized
+technology, MindSphere AI explores innovative approaches
+to digital mental wellness.
 
-### 🤖 Advanced AI Therapy System
+## 🎯 Project Objectives
 
-- **Zerepy Agent Integration**
-  - Advanced autonomous agent powered by state-of-the-art gpt-4
-  - Multi-agent coordination for comprehensive care
-  - Dynamic personality adaptation based on user needs
-  - Specialized therapeutic approaches and interventions
-  - Real-time crisis detection and emergency protocols
-  - Continuous learning and improvement system
+- Provide accessible AI-powered emotional support.
+- Help users manage everyday stress and anxiety.
+- Encourage healthy mental wellness habits.
+- Enable personalized wellness recommendations.
+- Explore privacy-focused data management.
+- Encourage mindfulness through interactive activities.
+- Integrate blockchain-based achievement tracking.
 
-### 🎨 Blockchain-Secured Therapy Sessions
+## ✨ Key Features
 
-- **Smart Contract Architecture**
+### 🤖 Intelligent AI Assistant
 
-  ```solidity
-  struct TherapySession {
-      uint256 sessionId;
-      uint256 timestamp;
-      string summary;
-      string[] topics;
-      uint256 duration;
-      uint8 moodScore;
-      string[] achievements;
-      bool completed;
-  }
-  ```
+- Personalized AI-powered conversations.
+- Context-aware emotional support.
+- Natural Language Processing (NLP).
+- Adaptive responses based on user interactions.
+- Emotion and stress signal identification.
+- Personalized mindfulness recommendations.
+- Supportive and interactive conversations.
 
-- **HIPAA-Compliant Data Management**
+### 🧘 Interactive Wellness Activities
 
-  - End-to-end encryption for all communications
-  - Zero-knowledge proofs for privacy
-  - Decentralized storage of session records
-  - Granular consent management system
+MindSphere AI provides interactive activities designed
+to encourage relaxation and emotional well-being.
 
-- **NFT-Based Progress Tracking**
-  - ERC-721 therapy session certificates
-  - Achievement-based milestone NFTs
-  - Privacy-preserving metadata structure
-  - Verifiable progress records
+- Guided breathing exercises.
+- Interactive digital Zen garden.
+- Virtual forest relaxation experiences.
+- Ocean wave meditation.
+- Stress management activities.
+- Mindfulness exercises.
 
-### 🌈 Interactive Therapeutic Features
+### 📊 Mental Wellness Dashboard
 
-- **Mindfulness Activities**
+- Daily mood tracking.
+- Emotional wellness insights.
+- Session history management.
+- Personal progress visualization.
+- Wellness achievement tracking.
+- Activity monitoring.
 
-  - Breathing exercises with visual guidance
-  - Digital Zen garden for stress relief
-  - Virtual forest walks
-  - Ocean wave meditation
+### 🔗 Blockchain Integration
 
-- **Smart Environment Integration**
-  - IoT device synchronization
-  - Ambient lighting control
-  - Therapeutic sound management
-  - Environmental adaptation to mood
+The platform explores blockchain technology for
+verifiable achievements and decentralized interactions.
 
-### 💫 Sonic Token Integration
+- Sonic blockchain integration.
+- Smart contract-based session management.
+- NFT-based achievement certificates.
+- Digital wellness milestones.
+- Token-based participation rewards.
+- Privacy-focused blockchain architecture.
+
+Sensitive mental health information should remain
+off-chain and protected through appropriate access
+controls and encryption.
+
+### 🚨 Stress Detection and Safety
+
+The platform includes mechanisms for identifying
+potential stress-related signals during conversations.
+
+- Stress keyword identification.
+- Emotional pattern analysis.
+- Supportive response generation.
+- Mindfulness activity suggestions.
+- Recommendations to seek professional support
+  when appropriate.
+
+MindSphere AI is a wellness support tool and is not
+a replacement for professional mental health care
+or emergency services.
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend development |
+| TypeScript | Application development |
+| Node.js | Backend environment |
+| Gemini API | AI-powered conversations |
+| Zerepy | AI agent integration |
+| Solidity | Smart contract development |
+| Sonic Blockchain | Blockchain infrastructure |
+| Hardhat | Smart contract deployment |
+| Web3 | Decentralized interactions |
+
+## 🏗️ System Architecture
+
+```text
+                User Interface
+                      |
+                      v
+              MindSphere Platform
+                      |
+          +-----------+-----------+
+          |                       |
+          v                       v
+     AI Assistant          Wellness Dashboard
+          |                       |
+          v                       v
+    Emotion Analysis        Progress Tracking
+          |                       |
+          +-----------+-----------+
+                      |
+                      v
+              Blockchain Layer
+                      |
+                      v
+              Smart Contracts
+```
+
+## 💻 Technical Implementation
+
+### AI Assistant Configuration
 
 ```typescript
-interface ISonicToken {
-    function mint(address to, uint256 amount) external;
-    function stake(uint256 amount) external;
-    function getRewards() external view returns (uint256);
+interface WellnessAgentConfig {
+    name: string;
+    personality: string;
+    specialties: string[];
+    languageModel: string;
+    temperature: number;
+    wellnessApproach: string;
+    safetyProtocol: object;
 }
 ```
 
-- **Tokenized Reward System**
-  - Achievement-based token distribution
-  - Engagement staking mechanisms
-  - Community participation rewards
-  - Progress milestone bonuses
+### Wellness Session Structure
 
-## 🛠 Technical Implementation
-
-### AI Agent Architecture
-
-```typescript
-class TherapyAgentConfig {
-  name: string;
-  personality: string;
-  specialties: string[];
-  language_model: string = "gemini-1.5-flash";
-  temperature: float = 0.7;
-  therapy_approach: string;
-  crisis_protocol: Object;
+```solidity
+struct WellnessSession {
+    uint256 sessionId;
+    uint256 timestamp;
+    uint256 duration;
+    bool completed;
 }
 ```
 
-### Security Measures
+The smart contract structure is designed to avoid
+directly storing sensitive emotional information
+on a public blockchain.
 
-- **Blockchain Security**
-
-  - Smart contract auditing
-  - Multi-signature therapy session validation
-  - Encrypted on-chain storage
-  - Automated security monitoring
-
-- **Data Protection**
-  - HIPAA-compliant encryption
-  - Secure key management
-  - Regular security audits
-  - Privacy-preserving analytics
-
-### Crisis Detection System
+### Stress Signal Detection
 
 ```typescript
-const detectStressSignals = (message: string): StressPrompt | null => {
-  const stressKeywords = [
-    "stress",
-    "anxiety",
-    "worried",
-    "panic",
-    "overwhelmed",
-    "nervous",
-    "tense",
-    "pressure",
-  ];
-  // Advanced pattern matching and intervention logic
+const detectStressSignals = (message: string): boolean => {
+    const stressKeywords = [
+        "stress",
+        "anxiety",
+        "worried",
+        "panic",
+        "overwhelmed",
+        "nervous",
+        "pressure"
+    ];
+
+    return stressKeywords.some(keyword =>
+        message.toLowerCase().includes(keyword)
+    );
 };
 ```
 
-## 🚀 Getting Started
+Keyword detection provides a basic indication of
+potential stress and is not a clinical assessment.
 
-1. **Clone & Install**
+## 🚀 Installation and Setup
 
-   ```bash
-   git clone https://github.com/blocklinklabs/aura3.0.git
-   cd aura3.0
-   npm install
-   ```
+### Prerequisites
 
-2. **Configure Environment**
+Make sure the following tools are installed:
 
-   ```bash
-   cp .env.example .env
-   # Add required API keys:
-   # - SONIC_PRIVATE_KEY
-   # - GEMINI_API_KEY
-   # - ZEREPY_API_KEY
-   ```
+- Node.js
+- npm
+- Git
+- MetaMask or a compatible Web3 wallet
+- Required AI API credentials
 
-3. **Deploy Smart Contracts**
+### Step 1: Clone the Repository
 
-   ```bash
-   npx hardhat run scripts/deploy.ts --network sonic_blaze_testnet
-   ```
+```bash
+git clone https://github.com/YOUR_USERNAME/mindsphere-ai.git
+cd mindsphere-ai
+```
 
-4. **Start Development Server**
-   ```bash
-   npm run dev
-   ```
+### Step 2: Install Dependencies
 
-## 📈 Performance Metrics
+```bash
+npm install
+```
 
-- Response Time: <100ms
-- Emotion Detection Accuracy: 94.5%
-- Crisis Prediction Precision: 91.3%
-- Transaction Throughput: 2000 TPS
-- NFT Minting Time: ~15s
+### Step 3: Configure Environment Variables
 
-## 🔒 Security & Compliance
+```bash
+cp .env.example .env
+```
 
-- End-to-end encryption
-- HIPAA compliance
-- GDPR compliance
-- Regular security audits
-- Penetration testing
-- Privacy-preserving architecture
-- Zero-knowledge proof implementation
-- Secure key management
-- Multi-factor authentication
-- Role-based access control
+Add the required credentials to your `.env` file.
 
-## 🗺 Development Roadmap
+```env
+GEMINI_API_KEY=your_api_key
+ZEREPY_API_KEY=your_api_key
+SONIC_PRIVATE_KEY=your_testnet_private_key
+```
 
-### Phase 1: Enhanced User Experience
+Never upload your `.env` file or private keys
+to a public repository.
 
-- Enhanced NFT visualization system
-- Advanced reward mechanisms
-- Mobile app release
-- NFT marketplace integration
-- Multi-language support
-- Advanced crisis intervention
-- Expanded IoT integration
-- Enhanced privacy features
+### Step 4: Deploy Smart Contracts
 
-### Phase 2: Platform Expansion
+```bash
+npx hardhat run scripts/deploy.ts --network sonic_blaze_testnet
+```
 
-- Group therapy features
-- DAO governance implementation
-- Cross-chain NFT bridging
-- Enhanced achievement system
-- AI model improvements
-- Community features
-- Advanced analytics
-- Expanded integrations
+### Step 5: Start the Application
+
+```bash
+npm run dev
+```
+
+Open the local development URL displayed
+in your terminal.
+
+## 📸 Project Screenshots
+
+Add screenshots of your own running application here.
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### AI Wellness Assistant
+
+![AI Assistant](screenshots/assistant.png)
+
+### Wellness Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Mindfulness Activities
+
+![Activities](screenshots/activities.png)
+
+## 🔐 Security and Privacy
+
+The project prioritizes responsible handling
+of user information through the following
+security design objectives:
+
+- Secure API credential management.
+- Encrypted communication.
+- Privacy-focused data storage.
+- Secure wallet integration.
+- Smart contract security testing.
+- User consent management.
+- Protection of sensitive information.
+- Authentication and access control.
+
+Formal security audits and regulatory compliance
+assessments are required before production use.
+
+## 🌍 Applications
+
+MindSphere AI can be explored in areas such as:
+
+- Student mental wellness.
+- Workplace stress management.
+- Personal emotional wellness.
+- Daily mindfulness routines.
+- Digital wellness education.
+- Personal development and habit tracking.
+
+## 🔮 Future Enhancements
+
+- Voice-based AI conversations.
+- Multilingual support.
+- Android and iOS applications.
+- Advanced emotional analysis.
+- Personalized meditation programs.
+- Smartwatch and wearable integration.
+- IoT-based relaxation environments.
+- Improved wellness analytics.
+- Community wellness features.
+- Professional support integration.
+- Enhanced blockchain security.
+
+## 👨‍💻 Developer
+
+**Your Name**
+
+Computer Science Student | Software Developer |
+AI and Blockchain Enthusiast
+
+This version of MindSphere AI is maintained as a
+project exploring the integration of Artificial
+Intelligence, modern web development, and
+blockchain technology for mental wellness.
+
+- GitHub: https://github.com/YOUR_USERNAME
+- Email: YOUR_EMAIL
 
 ## 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions, suggestions, and improvements
+are welcome.
 
-## 📄 License
+Feel free to fork this repository, create a new
+branch, and submit a pull request.
 
-MIT License - see [LICENSE](LICENSE)
+## 📜 License and Attribution
 
-## 🌟 Acknowledgments
+This project is distributed under the MIT License.
 
-- Sonic
-- Zerepy AI Framework
-- Mental Health Professionals
-- Open Source Community
+MindSphere AI is an adapted version of the
+open-source Aura3.0 project.
+
+Original copyright and license notices are
+retained in the LICENSE file.
+
+See the LICENSE file for more information.
+
+## ⭐ Support the Project
+
+If you find this project interesting or useful,
+consider giving the repository a star.
 
 ---
 
 <p align="center">
-Built with ❤️ on Sonic Blaze Testnet and Zerepy for better mental health
+  <b>MindSphere AI</b><br>
+  Technology for a healthier mind.<br>
+  Artificial Intelligence × Mental Wellness × Blockchain
 </p>
+
